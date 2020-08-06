@@ -2,7 +2,7 @@
 
 Enables power on and off of a Raspberry Pi arcade cabinet (and connected devices) with a single button, using Digital Loggers IoT Relay device: https://www.amazon.com/gp/product/B00WV7GMA2/ref=ask_ql_qh_dp_hza
 
-Mostly based on this nice guide: https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi with some script modifications.
+Mostly based on this nice guide: https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi with some script modifications and additional wiring for the IoT Relay.
 
 Startup: 1 button press\
 Shutdown: 2 button pressses
