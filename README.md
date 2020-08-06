@@ -8,6 +8,6 @@ Enables startup and shutdown of a full arcade cabinet (and connected devices) wi
 * Wire a button on your arcade control panel to GPIO 3 and Ground on the Raspberry Pi.
 * Wire GPIO 16 to + on the IoT Relay's green phoenix connector, and Ground to -.
 * Plug your arcade cabinet devices like monitor, speakers, etc into the "normally OFF" ports on the IoT Relay.
-
-
+* Copy the file listen-for-shutdown.py from this repo to `/usr/local/bin` on the Raspberry Pi.
+* Copy the file listen-for-shutdown.sh from this repo to `/etc/init.d`
 
