@@ -23,3 +23,5 @@ Shutdown: 2 button pressses
 * Upon power up of the RPi, listen-for-shutdown.py executes and set GPIO 16 HIGH, causing the IoT relay to turn ON on the normally OFF ports.
 * listen-for-shutdown.py then listens for 2 quick button presses on GPIO 3.  When it detects these, it causes the RPi to shutdown, which will set GPIO 16 LOW, causing the IoT Relay to turn off the normally OFF ports.
 * The RPi will wake from the halt state when you press the button again, because GPIO 3 is the `WAKE_ON_GPIO` pin.
+
+![Example Image](https://github.com/monospacesoftware/iot-relay-listener/blob/master/IMG_6280.jpg)
