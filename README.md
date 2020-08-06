@@ -4,7 +4,7 @@ Enables power on and off of a Raspberry Pi arcade cabinet (and connected devices
 
 Mostly based on this nice guide: https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi with some script modifications.
 
-Startup: 1 button press
+Startup: 1 button press\
 Shutdown: 2 button pressses
 
 ### Setup:
